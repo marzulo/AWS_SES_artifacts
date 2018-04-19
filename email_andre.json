@@ -1,0 +1,24 @@
+{
+  "Source": "andre@delphix.com",
+  "Template": "usersgroupmodelo1",
+  "ConfigurationSetName": "usersgroup",
+  "Destinations":[
+    {
+      "Destination":{
+        "ToAddresses":[
+          "marzulo@gmail.com"
+        ]
+      },
+      "ReplacementTemplateData":"{ \"name\":\"Andre\"}"
+    },
+    {
+      "Destination":{ 
+        "ToAddresses":[
+          "andre@delphix.com"
+        ]
+      },
+      "ReplacementTemplateData":"{ \"name\":\"Marzulo\"}"
+    }
+  ],
+  "DefaultTemplateData":"{ \"name\":\"Caro\"}"
+}
